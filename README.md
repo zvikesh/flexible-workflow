@@ -28,7 +28,7 @@ BO Node: ZZHREmployeeRequestRN </br>
 
 Transaction: SM30 </br>
 View Name: V_SBO_NODE_CDS </br>
-BO Node: ZI_EmployeeRequest </br>
+CDS View: ZI_EmployeeRequest </br>
 
 ![V_SBO_NODE_CDS](https://github.com/zvikesh/flexible-workflow/assets/108741639/158b1116-e0f2-4dc7-a5e9-43bdf13adbe4)
 
