@@ -39,3 +39,9 @@ View Name: V_BODEF </br>
 
 ![V_BODEF](https://github.com/zvikesh/flexible-workflow/assets/108741639/d2cc4e16-c1da-496c-a69f-64fa8734de09)
 
+# Scenario Development
+
+Transaction: SWDD_SCENARIO
+
+
+
