@@ -8,4 +8,4 @@ V_BO_TYPE
 
 SBO_V_NODETYPE
 
-![]()
+![SBO_V_NODETYPE](https://github.com/zvikesh/flexible-workflow/assets/108741639/32fdd286-4169-4ed3-92ea-6942dc197d5e)
