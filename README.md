@@ -35,5 +35,7 @@ BO Node: ZI_EmployeeRequest </br>
 **Maintain BO Representation**
 
 Transaction: SM30 </br>
-View Name: V_SBO_NODE_CDS </br>
-BO Node: ZI_EmployeeRequest </br>
+View Name: V_BODEF </br>
+
+![V_BODEF](https://github.com/zvikesh/flexible-workflow/assets/108741639/d2cc4e16-c1da-496c-a69f-64fa8734de09)
+
