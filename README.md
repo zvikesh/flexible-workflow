@@ -4,7 +4,7 @@
 
 V_BO_TYPE
 
-![ZZHREmployeeRequest](https://github.com/zvikesh/flexible-workflow/blob/main/V_BO_TYPE.jpg)
+![V_BO_TYPE](https://github.com/zvikesh/flexible-workflow/assets/108741639/1f9ec770-6960-4e39-92ea-bfadde4d4708)
 
 SBO_V_NODETYPE
 
