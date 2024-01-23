@@ -16,7 +16,7 @@ Function Profile - PRD_PURCH & PRD_SALES &
 
 Functions - PRD_PURCH | PRD_SALES | BP_VEND | BP_SUPPL
 
-**Team Category: MDM**
+## Examples
 
 | Team Types | MDM_PRD |
 |:------ |:---|
@@ -30,17 +30,14 @@ Functions - PRD_PURCH | PRD_SALES | BP_VEND | BP_SUPPL
 | Function Profile | ? | 
 | Functions |  BP_VEND & BP_SUPPL | 
 
-## Create Custom Team
+## Steps
 
 | Step Name | How To | Example |
 |:---|:--|:---|
 | Create Team Cataegory | Manage Team Categories (F6616) | ZZ1_MDM |
 | Define Functions | SPRO_ADMIN: Cross Application Components > General Application Functions > Responsibility Management > Functions > Define Functions | |
-| Define Function Profiles | SPRO_ADMIN: Cross Application Components   General Application Functions  Responsibility Management  Functions  Define Function Profile | |
-
-## Assign a Function Profile to a Team Category
-
-SPRO_ADMIN: Cross Application Components   General Application Functions  Responsibility Management  Teams and Responsibilities  Team Categories  Assign Function Profiles to Team Category.
+| Define Function Profiles | SPRO_ADMIN: Cross Application Components > General Application Functions > Responsibility Management > Functions > Define Function Profile | |
+| Assign a Function Profile to a Team Category | SPRO_ADMIN: Cross Application Components > General Application Functions > Responsibility Management > Teams and Responsibilities > Team Categories > Assign Function Profiles to Team Category | |
 
 ## Manage Teams and Responsibilities (F2412)
 
