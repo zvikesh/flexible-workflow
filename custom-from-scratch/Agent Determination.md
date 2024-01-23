@@ -4,29 +4,43 @@
 
 ## Overview
 
-### Team Category - MDM
-
+Team Category - MDM
 Business process (PTP, OTC, FIN etc.).
+- Team Types - PRD | BP
+  Business subprocess (PTP-, OTC-, FIN-AR, FIN-AP etc.).
+- Responsibility Definitions
+  - Name-value pair that can be used to query teams.
+  - [Custom](https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/8308e6d301d54584a33cd04a9861bc52/aca8c2682d284f2185873b14f838f7eb.html)
 
-### Team Types - PRD | BP
+Function Profile - PRD_PURCH & PRD_SALES & 
 
-Business subprocess (PTP-, OTC-, FIN-AR, FIN-AP etc.).
+Functions - PRD_PURCH | PRD_SALES | BP_VEND | BP_SUPPL
 
-### Responsibility Definitions
+**Team Category: MDM**
 
-Name-value pair that can be used to query teams.
+| Team Types | MDM_PRD |
+|:------ |:---|
+| Responsibility Definitions||
+| Function Profile |  ? | 
+| Functions |  PRD_PURCH, PRD_SALES | 
 
-[Custom](https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/8308e6d301d54584a33cd04a9861bc52/aca8c2682d284f2185873b14f838f7eb.html)
+| Team Types | MDM_BP |
+|:------ |:---|
+| Responsibility Definitions||
+| Function Profile | ? | 
+| Functions |  BP_VEND & BP_SUPPL | 
 
-### Function Profile - PRD_PURCH & PRD_SALES & 
+## Create Custom Team
 
-### Functions - PRD_PURCH | PRD_SALES | BP_VEND | BP_SUPPL
+| Step Name | How To | Example |
+|:---|:--|:---|
+| Create Team Cataegory | Manage Team Categories (F6616) | ZZ1_MDM |
+| Define Functions | SPRO_ADMIN: Cross Application Components > General Application Functions > Responsibility Management > Functions > Define Functions | |
+| Define Function Profiles | SPRO_ADMIN: Cross Application Components   General Application Functions  Responsibility Management  Functions  Define Function Profile | |
 
-### Functions - PRD_PURCH | PRD_SALES | BP_VEND | BP_SUPPL
+## Assign a Function Profile to a Team Category
 
-## Manage Team Categories (F6616)
-
-Team Categorry: ZZ1_MDM
+SPRO_ADMIN: Cross Application Components   General Application Functions  Responsibility Management  Teams and Responsibilities  Team Categories  Assign Function Profiles to Team Category.
 
 ## Manage Teams and Responsibilities (F2412)
 
