@@ -39,5 +39,25 @@ Functions - PRD_PURCH | PRD_SALES | BP_VEND | BP_SUPPL
 | Define Function Profiles | SPRO_ADMIN: Cross Application Components > General Application Functions > Responsibility Management > Functions > Define Function Profile | ZMDM_PRD |
 | Assign a Function Profile to a Team Category | SPRO_ADMIN: Cross Application Components > General Application Functions > Responsibility Management > Teams and Responsibilities > Team Categories > Assign Function Profiles to Team Category | |
 
+**Team Category**
+if doesn't exist
+- Manage Team Categories Fiori App (F6616)
+
+**Responsibility Definition**
+For standard Team Category, check if any cusotm Responsibility Definition is required.
+For Custom Team Category, need to create standard will not be available.
+SPRO_ADMIN: Cross Application Components > General Application Functions > Responsibility Management >
+... > Define Custom Responsibility Definitions
+... > Assign Custom Responsibility Definitions to Team Category
+
+**Responsibility Definition**
+
+SPRO_ADMIN
+... > Define Custom Responsibility Definitions
+... > Assign Custom Responsibility Definitions to Team Category
+ 
+SM34
+RSM_VC_CNTXT_AGENTRULE_MAP_S
+
 ## Manage Teams and Responsibilities (F2412)
 
