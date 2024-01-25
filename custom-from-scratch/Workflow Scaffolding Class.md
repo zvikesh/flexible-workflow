@@ -1,4 +1,4 @@
-# Workflow Class
+# Class to Trigger Workflow Event and Tasks Logic
 
 ```
 
@@ -62,9 +62,22 @@ ENDCLASS.
 
 # Runtime Fallback Class for Workflow
 
+| Methods in Runtime Callback Class | Description |
+|:---|:---|
+| BE FORE CREATION CAL LBAC K | Called before the next activity (wor k item) is created |
+| ON CREATI ON CA LL BACK | Called on creation of activity |
+| AF TER CREATION CALLBACK | Called after the cur rent activity is created |
+| BE FORE COMPLETION CA LL BACK | Called be fore activity completion |
+| AF TER COMPL ETI ON CALLBAC K | Called immed iately after activi ty completion |
+| MI TIGATE AG EN T RULE EVALUATION | Called when agent determina ti on fa ils |
+| MITIGATE START COND EVA LUATION | Called when the start cond ition eva luation fa ils |
+| RESULT CA LL BACK | Called when the entire workflow is completed |
+| ON CANCELLATION CALLBAC K | Called when the ent ire workflow is canceled |
+| INIT | Call ed on initia lization of the object |
+
 ```
 
-CLASS zcl_mdm_prd_crt_run_appl_base DEFINITION
+CLASS zcl_flex_wf_run_appl_base DEFINITION
   PUBLIC
   INHERITING FROM cl_swf_flex_ifs_run_appl_base
   CREATE PUBLIC .
@@ -80,8 +93,7 @@ CLASS zcl_mdm_prd_crt_run_appl_base DEFINITION
 
 ENDCLASS.
 
-
-CLASS zcl_mdm_prd_crt_run_appl_base IMPLEMENTATION.
+CLASS zcl_flex_wf_run_appl_base IMPLEMENTATION.
 
   METHOD if_swf_flex_ifs_run_appl~result_callback.
 *    "Get Result
